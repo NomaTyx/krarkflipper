@@ -2,7 +2,7 @@
 
 function Message() {
     //JSX: Javascript XML (whatever that means aaaaaaaaaa)
-    const name = 'penis';
+    const name = 'world';
     return <h1>Hello {name}</h1>;
 }
 

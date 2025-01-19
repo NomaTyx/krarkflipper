@@ -1,7 +1,9 @@
-import Message from './Message';
+import { Page } from "./Page";
 
-function App() {
-  return <div><Message /></div>
-}
-
-export default App;
+export const App = () => {
+  return (
+    <div>
+      <Page />
+    </div>
+  );
+};
